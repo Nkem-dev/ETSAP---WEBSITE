@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: white;
+   
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 1427px;
+    height: 75px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+
+
+nav{
+    display: flex;
+    gap: 77.56px;
+    
+}
+
+nav a{
+   text-decoration: none;
+   color: #4D4D4D;
+   font-weight: 700;
+   font-family: "Montserrat", sans-serif;
+   font-size: 13.65px;
+}
+
+main{
+    /* background-color: white;
+    width: 1470px;
+    height: 719px;
+    */
+    
+    /* border: 1px solid black; */
+    display: flex;
+   
+
+}
+
+.hero{
+    position: relative;
+    display: inline-block;
+
+   
+}
+
+.main-text{
+    font-size: 80px;
+    font-family: "Montserrat", sans-serif;
+    width: 889px;
+    height: 255px;
+    font-weight: 800;
+    line-height: 84.8px;
+    margin-top: 30px;
+   
+   
+}
+
+.africa{
+    color: #213999;
+}
+
+.transform-text{
+    color: #4D4D4D;
+    font-size: 18px;
+    font-weight: 500; 
+    font-family: "Montserrat", sans-serif;
+   
+}
+
+.transform{
+    margin-top: 40px;
+}
+
+.hosts{
+    display: flex;
+    /* justify-content: space-between; */
+    font-weight: 600;
+    color: #000000;
+    font-size: 18.88px;
+    gap: 75px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+}
+
+.line{
+    margin-left: 20px;
+    
+}
+
+.european{
+    margin-top: 10px;
+}
+
+.european-text{
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12.59px;
+    font-weight: 500;
+    
+}
+
+.partner{
+    margin-top: 40px;
+}
+
+.partner-text{
+    color: #4D4D4D;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.partner-hosts{
+    display: flex;
+    font-family: "Lato", sans-serif;
+    /* justify-content: space-between; */
+    gap: 30px;
+    font-size: 13.21px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 15px;
+}
+
+/* .bio-institute{
+   
+   
+}
+
+.ESTHUB{
+   
+
+} */
+
+
+
+.africa-img{
+    display: block;
+    width: 822.58px;
+   margin-left: -375px;
+   margin-top: -30px; 
+}
+
+.shadow{
+    position: absolute;
+    left: 0; 
+    top: 0;
+    z-index: -1;
+    height: 80%;
+    opacity: 0.4;
+}
+
+
+.shadow-container{
+    position: relative;
+    display: inline-block;
+    right: 35rem;
+}
+
+.icon-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   border: 1px solid transparent;
+   background-color: #F2F2F2;
+   height: 66px;
+   margin-top: -80px;
+}
+
+.accredia{
+    width: 109px;
+}
+
+.grey-line{
+   margin-top: 10px;
+}
