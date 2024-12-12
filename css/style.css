@@ -7,14 +7,19 @@
 body{
     overflow-x: hidden;
     background-color: white;
-   
 }
 
 .container{
-    width: 100%;
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 
+
+
+.main-logo{
+    margin-left: 90px;
 }
 
 
@@ -23,7 +28,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    width: 1427px;
+    width: 1600px;
     height: 75px;
     background-color: white;
     position: sticky;
@@ -36,6 +41,7 @@ header{
 nav{
     display: flex;
     gap: 77.56px;
+    margin-right: 70px;
     
 }
 
@@ -55,6 +61,7 @@ main{
     
     /* border: 1px solid black; */
     display: flex;
+    margin-right: 60px;
    
 
 }
@@ -181,6 +188,7 @@ main{
 
 .icon-section{
     display: flex;
+    width: 1450px;
     justify-content: space-around;
     align-items: center;
    border: 1px solid transparent;
@@ -196,3 +204,26 @@ main{
 .grey-line{
    margin-top: 10px;
 }
+
+.section-one{
+    width: 1590px;
+    height: 923px;
+    border: 1px solid transparent;
+    background-color: #E6E6E6;
+   
+    
+}
+.sectionone-container{
+    display: flex;
+    justify-content: center;
+   margin-top: 100px;
+   gap: 100px;
+    
+}
+
+.start{
+    width: 1590px;
+}
+
+
+
